@@ -117,32 +117,6 @@
 ├── webpack.prod.config.js 		生产环境配置
 ├── yarn.lock         			
 └── package.json
-```
-### 三、如何执行
 
-####  1、将项目克隆到本地，cd 到 react-music
-```javascript
-git clone git@github.com:chenjun1127/react-music.git
-cd react-music
-```
-#### 2、安装依赖
-```javascript
-npm install or yarn install
-```
-#### 3、执行
-```javascript
-npm start or yarn start
-// npm run build(打包)
-```
-#### 4、打开浏览器浏览 [http://localhost:3000/](http://localhost:3000/)，强烈建议使用 Chrome、Firefox 浏览器浏览。
 
-### 四、项目总结
-整体项目实现了一个基本播放器应有的功能，但个别功能还有待完善，比如收藏列表本地持续化存储、登录注册未做真正限制等。觉得项目不错的，可以给个Star，谢谢！
-如果您觉得本项目对你有所帮助，不妨扫描下方二维码（左微信，右支付宝）请我喝杯咖啡，谢谢！
 
-![微信](/QR-code/weixin.png)
-![支付宝](/QR-code/zhifubao.png)
-
-Tips：在npm install or yarn install 的时候，请确保网络良好，如个别依赖安装不了，请设置淘宝镜像为安装源；
-
-如有问题：请 Issue 或联系QQ：402074940
